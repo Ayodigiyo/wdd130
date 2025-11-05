@@ -1,0 +1,59 @@
+/* Basic reset and body styling */
+* {
+    margin: 0;
+    padding: 0
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-break: 1.6;
+}
+
+/* Header styling */
+header, footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  font-size: 1.5rem;
+}
+
+header h1 {
+  margin: 10px;
+  text-align: center;
+}
+
+header h2 {
+    border-bottom: 1px solid #222;
+}
+
+/* Main content */
+main {
+  width: 400px;
+  margin: 0 auto;
+}
+
+/* Image styling */
+main img {
+  width: 100%;
+  height: auto;
+  box-shadow: 0 0 30px #333
+}
+
+section {
+    margin: 20px 0;
+    border: 1px solid rgb(0 0 0 / 10%);
+    background-color: #abe;
+    font-size: .9rem;
+}
+
+section {
+    margin: 10px;
+}
+
+ul {
+    margin: 10px 20px;
+}
+
+
+
