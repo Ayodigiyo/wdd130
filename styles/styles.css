@@ -1,4 +1,14 @@
-/* Navigation */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  font-family:  Roboto, Arial, sans-serif;
+}
+
 nav {
   background-color: #333;
   padding: 0.75rem;
@@ -10,7 +20,6 @@ nav a {
   display: block;
 }
 
-/* Main content */
 main {
   max-width: 840px;
   margin: 0 auto;
@@ -21,7 +30,6 @@ h1 {
   color: #222;
 }
 
-/* Profile image in main */
 main img {
   width: 150px;
   height: auto;
@@ -30,9 +38,10 @@ main img {
   box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
   display: block;
   margin: 0 auto 1rem;
+  float: right;
+  margin: 0 0 1rem 1rem;
 }
 
-/* Aside */
 aside {
   width: 20rem;
   margin: 1rem;
@@ -41,6 +50,7 @@ aside {
   background-color: #eee;
   color: #333;
   text-align: center;
+  position: relative;
 }
 
 aside img {
@@ -50,12 +60,16 @@ aside img {
   margin: 0 auto 1rem;
 }
 
-/* Paragraphs */
-p {
-  padding: 0;
+aside h2 {
+  position: absolute;
+  top: 65px;
+  left: 200px;
 }
 
-/* Footer */
+p {
+  padding: 0;
+  margin: 1rem;
+}
 footer {
   margin-top: 15px;
   border-top: 1px solid #000;
@@ -63,3 +77,16 @@ footer {
   padding-top: 1rem;
 }
 
+/* Class Selectors */
+.box {
+  margin: 1rem;
+  border: 1px solid rgba(0,0,0,.1);
+  padding: 1rem;
+  background-color: #eee;
+  color: #000;
+}
+
+.indent {
+  padding-left: 2rem;
+}
+ 
