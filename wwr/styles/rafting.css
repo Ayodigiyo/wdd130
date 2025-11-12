@@ -1,3 +1,10 @@
+/* Universal Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 /* CSS Variables */
  :root {
   --primary-color: #1a5d1a;
@@ -6,12 +13,6 @@
   --heading-font: 'Georgia', 'Times New Roman', serif;
 }
 
-/* Universal Reset */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
 /* Body & Layout */
 body {
