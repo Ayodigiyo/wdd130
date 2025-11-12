@@ -1,8 +1,8 @@
 /* CSS Variables */
 :root {
-  --primary-color: #1a5d1a;       /* Deep green */
-  --accent1-color: #333;          /* Dark gray for body text */
-  --accent2-color: #d4af37;       /* Gold for highlights */
+  --primary-color: #1a5d1a;       
+  --accent1-color: #333;         
+  --accent2-color: #d4af37;       
   --body-font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   --heading-font: 'Georgia', 'Times New Roman', serif;
 }
