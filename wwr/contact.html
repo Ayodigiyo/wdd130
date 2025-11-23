@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Contact Wild Water Rafting with questions, reservations, or feedback. Find our location, team, and send us a message." />
+  <title>Contact Us | Wild Water Rafting</title>
+  <link rel="stylesheet" href="rafting.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <h1>Wild Water Rafting</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="trips.html">Trips</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Contact Us</h2>
+
+    <!-- Company Info Section -->
+    <section class="contact-info">
+      <h3>Get in Touch</h3>
+      <p><strong>Address:</strong> 123 River Trail, Adventure City, AC 87654</p>
+      <p><strong>Phone:</strong> (555) 123-4567</p>
+      <p><strong>Email:</strong> info@wildwater.com</p>
+
+      <!-- Embedded Google Map -->
+      <div class="map-container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.142293802199!2d-73.98784148458985!3d40.75889497932553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25855c6480291%3A0x55194ec5a1ae072e!2sTimes%20Square!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus"
+          width="100%"
+          height="300"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team">
+      <h3>Meet Our Team</h3>
+      <div class="team-members">
+        <figure>
+          <img src="images/guide1.jpg" alt="Alex Morgan, Lead Rafting Guide" />
+          <figcaption>Alex Morgan<br>Lead Rafting Guide</figcaption>
+        </figure>
+        <figure>
+          <img src="images/guide2.jpg" alt="Jamie Ruiz, Safety Coordinator" />
+          <figcaption>Jamie Ruiz<br>Safety Coordinator</figcaption>
+        </figure>
+        <figure>
+          <img src="images/guide3.jpg" alt="Taylor Kim, Trip Planner" />
+          <figcaption>Taylor Kim<br>Trip Planner</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="contact-form">
+      <h3>Send Us a Message</h3>
+      <form action="#" method="post">
+        <div class="form-group">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+
+        <fieldset class="form-group">
+          <legend>Purpose of Message</legend>
+          <div class="radio-option">
+            <input type="radio" id="inquiry" name="purpose" value="general" required />
+            <label for="inquiry">General Inquiry</label>
+          </div>
+          <div class="radio-option">
+            <input type="radio" id="reservation" name="purpose" value="reservation" />
+            <label for="reservation">Reservation Question</label>
+          </div>
+          <div class="radio-option">
+            <input type="radio" id="suggestion" name="purpose" value="suggestion" />
+            <label for="suggestion">Website Suggestion</label>
+          </div>
+        </fieldset>
+
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+
+        <div class="form-group checkbox-group">
+          <input type="checkbox" id="newsletter" name="newsletter" />
+          <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+        </div>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Wild Water Rafting. All rights reserved.</p>
+  </footer>
+</body>
+</html>
