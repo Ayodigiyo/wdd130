@@ -31,12 +31,10 @@ header, main, footer {
 
 /* Headings */
 h1, h2 {
-  main h1 {
   background-color: var(--primary-color); /* e.g., rgb(26, 93, 26) */
   color: white; /* ✅ High contrast */
   padding: 0.5rem;
   border-radius: 4px;
-}
 }
 
 /* General Spacing */
